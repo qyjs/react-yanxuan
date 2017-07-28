@@ -8,6 +8,7 @@
 - fetch
 - webpack
 - sass
+- flexible(移动端适配)
 
 ### 项目地址
 [http://yanxuan.wenye123.com/](http://yanxuan.wenye123.com/)
