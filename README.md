@@ -8,6 +8,11 @@
 - fetch
 - webpack
 
+### 项目地址
+[http://yanxuan.wenye123.com/](http://yanxuan.wenye123.com/)
+手机可以扫描二维码
+![二维码](./logo.png)
+
 ### 注意
 - webpack是我自己手工配置的，可能不适合所有人
 
