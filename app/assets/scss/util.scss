@@ -1,0 +1,20 @@
+// 单位长度转换函数
+@function px2rem($px, $base-font-size : 75px) {
+	@if(unitless($px)) {
+		@warn "#{$px}需要是px的单位，尝试帮你转换为px";
+		@return px2em($px + 0px);
+	} @else if(unit($px) == em) {
+		@return $px;
+	}
+	@return ($px / $base-font-size) * 1rem;
+}
+// 字体大小转换混合
+@mixin font-dpr($font-size){
+	font-size : $font-size;
+	[data-dpr="2"] & {
+		font-size : $font-size * 2;
+	}
+	[data-dpr="3"] & {
+		font-size : $font-size * 3;
+	}
+}
