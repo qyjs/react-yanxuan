@@ -7,6 +7,7 @@
 - redux
 - fetch
 - webpack
+- sass
 
 ### 项目地址
 [http://yanxuan.wenye123.com/](http://yanxuan.wenye123.com/)

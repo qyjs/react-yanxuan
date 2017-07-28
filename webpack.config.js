@@ -101,7 +101,8 @@ if (process.env.NODE_ENV === 'development') {
             "/json" : "http://localhost:4002",
             "/banner_pic" : "http://localhost:4002",
             "/list_pic" : "http://localhost:4002",
-        }
+        },
+        //hot : true,
     },
     // 新增插件
     module.exports.plugins = (module.exports.plugins || []).concat([

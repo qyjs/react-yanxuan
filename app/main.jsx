@@ -10,11 +10,11 @@ import configureStore from '@store/index'
 
 const store = configureStore()
 
-
 ReactDOM.render((
     <BrowserRouter>
         <Provider store={store}>
             {renderRoutes(routes)}
         </Provider>
-    </BrowserRouter>  
+    </BrowserRouter> 
 ), document.getElementById("app"));
+ 
